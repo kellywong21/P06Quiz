@@ -21,7 +21,14 @@
         android:id="@+id/tvOperation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Operation"/>
+        android:text="Operation"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/btnReset"
